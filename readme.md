@@ -1,21 +1,32 @@
-# Next.js Playground
+# App Directory – Next.js Playground 🚀
 
-This playground is used by the DX team to explore, test, and demo new Next.js features. It serves as a starting point for writing documentation and helps us understand features, identify bugs, and provide feedback to the Next.js team.
+A playground project built with **Next.js App Router** to explore and experiment with modern routing features such as layouts, nested routes, loading & error states, and route groups.
 
-## Running Locally
+## 🔗 Live Demo
+https://app-directory-beige-phi.vercel.app
 
-1. Install dependencies:
+## ✨ Features
+- App Router–based routing
+- Nested layouts
+- Route groups
+- Loading UI (`loading.js`)
+- Error handling (`error.js`)
+- Server and client components
+- Folder-based routing structure
+- Deployed on Vercel
 
-```sh
-pnpm install
-```
+## 🛠 Tech Stack
+- Next.js 13+
+- React
+- JavaScript
+- CSS
+- Vercel
 
-2. Start the dev server:
+## 📁 Project Purpose
+This project is designed as a **learning playground** to understand the Next.js App Directory architecture and experiment with routing concepts.
 
-```sh
-pnpm dev
-```
+## 🚀 Getting Started
 
-## Documentation
-
-https://nextjs.org/docs
+### Clone the repository
+```bash
+git clone https://github.com/asmitabasak/app-directory.git
