@@ -5,7 +5,10 @@ import { ProductCard } from '#/ui/product-card';
 
 export async function generateStaticParams() {
   const categories = db.category.findMany();
-  return categories.map(({ section, slug }) => ({ section, category: slug }));
+  return categories.flatMap(({ section, slug }) => {
+    const sectionSlug = db.section.find({ where: { id: section } })?.slug;
+    return sectionSlug ? [{ section: sectionSlug, category: slug }] : [];
+  });
 }
 
 export default async function Page({
