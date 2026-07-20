@@ -28,5 +28,9 @@ This project is designed as a **learning playground** to understand the Next.js 
 ## 🚀 Getting Started
 
 ### Clone the repository
+
 ```bash
 git clone https://github.com/asmitabasak/app-directory.git
+
+cd app-directory
+```
